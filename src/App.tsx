@@ -24,7 +24,7 @@ export function App() {
           />
 
           <Route
-            path="/new-features"
+            path="/new-features/*"
             element={
               <div>
                 New Features route
