@@ -13,6 +13,7 @@ const EmbedProvider = () => {
   const [isReady, setIsReady] = useState(false);
   const [manifest, setManifest] = useState<{
     "src/main.tsx": { file: string };
+    "src/main.css": { file: string };
   } | null>(null);
 
   /**
@@ -44,6 +45,12 @@ const EmbedProvider = () => {
     script.crossOrigin = "anonymous";
     script.onload = () => setHasLoaded(true);
     document.body.append(script);
+
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = `http://127.0.0.1:8080/${manifest["src/main.css"]["file"]}`;
+    document.head.appendChild(link);
   };
 
   useEffect(() => {

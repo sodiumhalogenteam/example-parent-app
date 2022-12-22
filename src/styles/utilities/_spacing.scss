@@ -1,0 +1,286 @@
+/*------------------------------------*\
+    #SPACING
+\*------------------------------------*/
+
+// Margin auto --> Force margin to adjust automatically
+.u-margin-auto {
+  margin: auto;
+}
+
+// Margin bottom none --> Force margin bottom of 0
+.u-margin-bottom-none {
+  margin-bottom: 0 !important;
+}
+
+// Margin bottom small --> Force margin bottom of $spacing-small variable
+.u-margin-bottom-small {
+  margin-bottom: $spacing-small !important;
+}
+
+// Margin bottom --> Force margin bottom of $spacing variable
+.u-margin-bottom {
+  margin-bottom: $spacing !important;
+}
+
+// Margin bottom large --> Force margin bottom of $spacing-large variable
+.u-margin-bottom-large {
+  margin-bottom: $spacing-large !important;
+}
+
+.u-margin-bottom-large-to-xxl {
+  margin-bottom: $spacing-large !important;
+
+  @media all and (min-width: $bp-large) {
+    margin-bottom: $spacing-large * 4 !important;
+  }
+}
+// Margin top none --> Force margin top of 0
+.u-margin-top-none {
+  margin-top: 0 !important;
+}
+
+// Margin top small --> Force margin top of $spacing-small variable
+.u-margin-top-small {
+  margin-top: $spacing-small !important;
+}
+
+// Margin top --> Force margin top of $spacing variable
+.u-margin-top {
+  margin-top: $spacing !important;
+}
+
+// Margin top large --> Force margin top of $spacing-large variable
+.u-margin-top-large {
+  margin-top: $spacing-large !important;
+}
+
+// Margin extra large
+.u-margin-top-xlarge {
+  margin-top: $spacing-xlarge !important;
+}
+
+// Margin top numbered
+.u-margin-top-8 {
+  margin-top: 8rem !important;
+}
+
+// Margin right auto --> Force margin to adjust automatically
+.u-margin-right-auto {
+  margin-right: auto !important;
+}
+
+// Margin right none --> Force margin right of 0
+.u-margin-right-none {
+  margin-right: 0 !important;
+}
+
+// Margin right small --> Force margin right of $spacing-small variable
+.u-margin-right-small {
+  margin-right: $spacing-small !important;
+}
+
+// Margin right --> Force margin right of $spacing variable
+.u-margin-right {
+  margin-right: $spacing !important;
+}
+
+// Margin right large --> Force margin right of $spacing-large variable
+.u-margin-right-large {
+  margin-right: $spacing-large !important;
+}
+
+// Margin left none --> Force margin left of 0
+.u-margin-left-none {
+  margin-left: 0 !important;
+}
+
+// Margin left small --> Force margin left of $spacing-small variable
+.u-margin-left-small {
+  margin-left: $spacing-small !important;
+}
+
+// Margin left --> Force margin left of $spacing variable
+.u-margin-left {
+  margin-left: $spacing !important;
+}
+
+// Margin left large --> Force margin left of $spacing-large variable
+.u-margin-left-large {
+  margin-left: $spacing-large !important;
+}
+
+// Margin left large --> Force margin left of $spacing-large variable
+.u-margin-left-xlarge {
+  margin-left: $spacing-xlarge !important;
+}
+
+// Margin None
+.u-margin-none {
+  margin: 0 !important;
+}
+
+// Center display block contents
+.u-margin-center {
+  margin: 0 auto !important;
+}
+
+// Padding none
+.u-padding-none {
+  padding: 0 !important;
+}
+
+// Padding small
+.u-padding-small {
+  padding: $spacing-small !important;
+}
+
+// Padding
+.u-padding {
+  padding: $spacing !important;
+}
+
+// Padding large
+.u-padding-large {
+  padding: $spacing-large !important;
+}
+
+// Padding extra large
+.u-padding-xlarge {
+  padding: $spacing-xlarge !important;
+}
+
+// Padding top none
+.u-padding-top-none {
+  padding-top: 0 !important;
+}
+
+// Padding top small
+.u-padding-top-small {
+  padding-top: $spacing-small !important;
+}
+
+// Padding top
+.u-padding-top {
+  padding-top: $spacing !important;
+}
+
+// Padding top large
+.u-padding-top-large {
+  padding-top: $spacing-large !important;
+}
+
+// Padding bottom none
+.u-padding-bottom-none {
+  padding-bottom: 0 !important;
+}
+
+// Padding bottom small
+.u-padding-bottom-small {
+  padding-bottom: $spacing-small !important;
+}
+
+// Padding bottom
+.u-padding-bottom {
+  padding-bottom: $spacing !important;
+}
+
+// Padding bottom large
+.u-padding-bottom-large {
+  @media (max-width: 1200px) {
+    padding-bottom: 20vh !important;
+  }
+
+  @media (min-width: 1201px) {
+    padding-bottom: $spacing-large !important;
+  }
+}
+
+// Padding right none
+.u-padding-right-none {
+  padding-right: 0 !important;
+}
+
+// Padding right small
+.u-padding-right-small {
+  padding-right: $spacing-small !important;
+}
+
+// Padding right
+.u-padding-right {
+  padding-right: $spacing !important;
+}
+
+// Padding right large
+.u-padding-right-large {
+  padding-right: $spacing-large !important;
+}
+
+// Padding left none
+.u-padding-left-none {
+  padding-left: 0 !important;
+}
+
+// Padding left small
+.u-padding-left-small {
+  padding-left: $spacing-small !important;
+}
+.u-padding-left-small-desktop {
+  @media all and (min-width: $bp-med) {
+    padding-left: $spacing-small !important;
+  }
+}
+
+.u-padding-right-small-desktop {
+  @media all and (min-width: $bp-med) {
+    padding-right: $spacing-small !important;
+  }
+}
+
+// Padding left
+.u-padding-left {
+  padding-left: $spacing !important;
+}
+
+// Padding left large
+.u-padding-left-large {
+  padding-left: $spacing-large !important;
+}
+
+// Padding left large
+.u-padding-left-10rem {
+  padding-left: 10rem !important;
+}
+
+.u-gap-small {
+  gap: 5rem;
+}
+.u-justify-space-around {
+  justify-content: space-around !important;
+}
+.u-align-center {
+  align-items: center;
+}
+
+.u-align-start {
+  align-items: flex-start !important;
+}
+
+// Adjustments for side by side input fields
+.u-input-side-by-side {
+  margin-left: $spacing-xs;
+  margin-right: $spacing-xs;
+  margin-bottom: $spacing-xs !important;
+  width: 95%;
+}
+
+.u-width-50-percent {
+  width: 50% !important;
+}
+
+.u-width-80-percent {
+  width: 80% !important;
+}
+
+.u-width-100-percent {
+  width: 100% !important;
+}

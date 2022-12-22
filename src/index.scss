@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0px;
+}
+
+// important fighting to
+html > body {
+  padding: 0 !important;
+}
+
+input {
+  background-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+svg {
+  overflow: visible;
+}
+
+.aa-todo {
+  background-color: pink;
+  border-radius: 7px;
+}
+
+// abstracts
+@import "./styles/abstracts/variables";
+@import "./styles/abstracts/colors";
+@import "./styles/abstracts/mixins";
+
+// utilities
+@import "./styles/utilities/cursor";
+@import "./styles/utilities/spacing";
+@import "./styles/utilities/visibility";
+@import "./styles/utilities/text";
+
+// base
+@import "./styles/base/body";
+@import "./styles/base/forms";
+@import "./styles/base/headings";
+@import "./styles/base/text";
+
+@import "./styles/atoms/icons";
+
+@import "./styles/layout";
+@import "./styles/navigation";
+@import "./styles/sidebar";
+@import "./styles/header";

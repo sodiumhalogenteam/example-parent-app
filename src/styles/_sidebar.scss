@@ -1,0 +1,79 @@
+.c-sidebar {
+  display: none;
+  background-color: $color-gray-100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  @media all and (min-width: $bp-large) {
+    width: 40rem;
+    display: block;
+  }
+
+  &--light {
+    background-color: $color-gray-000;
+
+    .c-sidebar__main {
+      background-color: $color-gray-000;
+    }
+  }
+
+  &__header {
+    padding: 2.5rem 3rem 0;
+    width: 100%;
+    &--empty {
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &__main {
+    background-color: $color-gray-100;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow: show;
+    height: calc(100vh - 54px);
+    overflow-y: auto;
+    @media all and (max-width: $bp-large) {
+      height: calc(96vh - 54px);
+    }
+  }
+  &__compare-plans-btn {
+    margin-bottom: 1rem;
+    background-color: $color-action-blue-700;
+    border-color: $color-action-blue-700;
+    &:focus,
+    &:active,
+    &:hover {
+      background-color: $color-action-blue-500;
+      border-color: $color-action-blue-500;
+    }
+  }
+  &__links {
+    list-style: none;
+    padding: 0 3rem 5rem;
+  }
+  &__link {
+    margin-top: 1rem;
+  }
+}
+
+.c-modal-menu {
+  padding: 0;
+  width: 40rem;
+  .c-sidebar {
+    display: block;
+    position: static;
+  }
+}
+
+.c-mobile-nav {
+  @media all and (min-width: $bp-large) {
+    display: none;
+  }
+}
