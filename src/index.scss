@@ -53,6 +53,10 @@ svg {
 @import "./styles/base/headings";
 @import "./styles/base/text";
 
+// molecules
+@import "./styles/molecules/button";
+@import "./styles/molecules/title";
+
 @import "./styles/atoms/icons";
 
 @import "./styles/layout";

@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./index.scss";
 import EmbedProvider from "./EmbedProvider";
 import MainLayout from "./styles/mainLayout";
 
@@ -32,7 +32,6 @@ export function App() {
                 path="/new-features/*"
                 element={
                   <div>
-                    New Features route
                     <Suspense fallback={<div>Loading...</div>}>
                       <div>
                         <EmbedProvider />
