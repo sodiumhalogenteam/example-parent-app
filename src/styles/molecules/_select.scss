@@ -1,0 +1,69 @@
+.c-select {
+  display: grid;
+  grid-template-areas: 'select';
+  align-items: center;
+  position: relative;
+  border: 1px solid $color-btn-outline;
+  border-radius: 3rem;
+  height: 5rem;
+  padding: 0 2rem;
+  background-color: transparent;
+  cursor: pointer;
+
+  &--no-border {
+    border: none;
+  }
+
+  &--wide {
+    width: 14rem;
+  }
+
+  &--disabled {
+    &::after {
+      display: none;
+    }
+  }
+
+  select,
+  select.valid {
+    color: $color-btn-outline;
+  }
+
+  select.invalid {
+    color: $color-form-disabled;
+  }
+
+  &::after {
+    position: absolute;
+    grid-area: select;
+    justify-self: end;
+    content: '';
+    width: 0.8em;
+    height: 0.5em;
+    background-color: $color-btn-outline;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+  }
+
+  &:hover {
+    border-color: $color-btn-outline-bg-hover;
+    select {
+      color: $color-btn-outline-bg-hover;
+    }
+    &::after {
+      background-color: $color-btn-outline-bg-hover;
+    }
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    background-color: $color-form-bg-disabled;
+    color: $color-form-disabled;
+    border-color: $color-form-border-disabled;
+  }
+
+  select {
+    &[disabled] {
+      cursor: not-allowed;
+    }
+  }
+}

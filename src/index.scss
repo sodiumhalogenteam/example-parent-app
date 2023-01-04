@@ -55,6 +55,7 @@ svg {
 
 // molecules
 @import "./styles/molecules/button";
+@import "./styles/molecules/select";
 @import "./styles/molecules/title";
 
 // organisms
@@ -66,3 +67,4 @@ svg {
 @import "./styles/navigation";
 @import "./styles/sidebar";
 @import "./styles/header";
+@import "./styles/reactTable";
