@@ -1,0 +1,10 @@
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+
+// Body Styles --> prevent mobile Safari from scaling up text: https://blog.55minutes.com/2012/04/iphone-text-resizing/
+@mixin typographyBody() {
+  font-size: $font-size-med;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}

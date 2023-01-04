@@ -1,0 +1,27 @@
+.c-page-heading {
+  color: $brand-red-alt;
+  font-size: auto;
+  &__divider {
+    padding: 0 $spacing-large;
+  }
+
+  // Extra small devices (315px and below)
+  @media (max-width: 314px) {
+    font-size: x-small;
+  }
+
+  // Small devices (iPhone 4/5/SE, 315px-374px)
+  @media (min-width: 315px) and (max-width: 374px) {
+    font-size: small;
+  }
+
+  // Medium devices (landscape phones, tablets, 375px - 767px)
+  @media (min-width: 375px) and (max-width: 767px) {
+    font-size: medium;
+  }
+
+  // Large devices (laptop/desktop screens)
+  @media (min-width: 768px) {
+    font-size: large;
+  }
+}

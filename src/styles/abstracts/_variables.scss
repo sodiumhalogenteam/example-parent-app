@@ -1,0 +1,79 @@
+$brand-red: #c2000c;
+$brand-red-alt: #e6222f;
+
+$color-black: #000;
+$color-black-shadow: #0000004d;
+$color-gray-900: #2a3338;
+$color-gray-800: #3c474d;
+$color-gray-700: #556066;
+$color-gray-600: #6e7a80;
+$color-gray-500: #8a9499;
+$color-gray-400: #adb4b8;
+$color-gray-300: #c4c9cc;
+$color-gray-200: #dadee0;
+$color-gray-100: #e6e9eb;
+$color-gray-000: #f2f4f5;
+$color-white: #fff;
+
+$color-action-blue-500: #0088cc;
+$color-action-blue-300: #17a1e6;
+$color-action-blue-700: #0a4766;
+$color-action-blue-200: #81d4fa;
+$color-action-blue-100: #85a3b3;
+
+$color-utility-expiring: #8ae696;
+$color-utility-success: #30a629;
+$color-utility-warning: #e6be17;
+$color-utility-error: #e61717;
+$color-utility-error-2: #ff0000;
+
+// Font/text values
+$font-family-primary: "Roboto", "Helvetica", "Arial", sans-serif;
+$font-family-mono: "Roboto Mono", monospace;
+$font-style-normal: normal;
+$font-weight-normal: normal;
+$font-weight-bold: 800;
+$font-size-sm: 1rem; // 12px
+$font-size-med: 16px;
+$font-size-lg: 18px;
+$font-size-xl: 24px;
+$character-spacing-0: 0px;
+$line-spacing-16: 16px;
+$line-spacing-18: 18px;
+$line-spacing-21: 21px;
+$line-spacing-22: 22px;
+$line-spacing-30: 30px;
+$text-transform-uppercase: uppercase;
+
+// LAYOUT
+// Max Width
+$l-max-width: 80rem !default;
+$l-max-width-narrow: 45rem !default;
+$l-linelength-width: 36rem !default;
+
+// SPACING
+// Spacing and offsets --> Used to space grids and body padding
+$spacing: 1rem;
+$spacing-xs: 0.4 * $spacing;
+$spacing-small: round(0.5 * $spacing);
+$spacing-med: round(1.5 * $spacing);
+$spacing-large: round(2 * $spacing);
+$spacing-xlarge: round(4 * $spacing);
+
+// BREAKPOINTS
+// Breakpoints used in media queries --> These are not the only breakpoints used, but they provide a few defaults
+$bp-small: 28em;
+$bp-small-2: 35em;
+$bp-med: 47em;
+$bp-large: 60em;
+$bp-xl: 70em;
+
+// #BORDERS
+$border-thickness: 1px;
+$border-radius: 0.5em;
+$border-radius-lg: 100px;
+
+// #ANIMATION
+$anim-fade-quick: 0.15s;
+$anim-fade-long: 0.5s;
+$anim-ease: ease-out;
