@@ -1,0 +1,136 @@
+/*------------------------------------*\
+    #FORMS
+\*------------------------------------*/
+
+/**
+ * 1) Form element base styles
+ */
+
+// Input placeholder text base styles
+::-webkit-input-placeholder {
+  color: $color-form-placeholder;
+}
+
+::-moz-placeholder {
+  color: $color-form-placeholder;
+}
+
+:-ms-input-placeholder {
+  color: $color-form-placeholder;
+}
+
+// Fieldset base styles
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+// Legend base styles
+legend {
+  margin-bottom: 0.25rem;
+}
+
+// Label base styles
+label {
+  display: block;
+  padding-bottom: 0.25rem;
+  color: $color-form-label;
+}
+
+// Add font size 100% of form element and margin 0 to these elements
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: $font-size-med;
+  margin: 0;
+}
+
+// Input base styles
+input {
+  width: 100%;
+  border: $border-thickness solid $color-form-border;
+  border-radius: 26px;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  background: $color-form-bg;
+
+  &:focus {
+    border-color: $color-form-border-focus;
+    outline: $color-form-border-focus;
+  }
+
+  &:disabled {
+    border-color: $color-gray-300;
+    background: transparent;
+    color: $color-gray-300;
+  }
+}
+
+// Remove webkit appearance styles from these elements
+input[type='text'],
+input[type='tel'],
+input[type='password'],
+input[type='search'],
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration,
+input[type='url'],
+input[type='number'],
+textarea {
+  -webkit-appearance: none;
+}
+
+// Checkbox and radio button base styles
+input[type='checkbox'],
+input[type='radio'] {
+  width: auto;
+  margin-right: 0.3rem;
+  border-color: $color-form-border;
+}
+
+// Search input base styles
+input[type='search'] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+// // Select –-> Remove default styling
+select {
+  // A reset of styles, including removing the default dropdown arrow
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+
+  // Stack above custom arrow
+  // z-index: 1;
+
+  // Remove dropdown arrow in IE10 & IE11
+  // @link https://www.filamentgroup.com/lab/select-css.html
+  &::-ms-expand {
+    display: none;
+  }
+
+  // Remove focus outline, will add on alternate element
+  outline: none;
+}
+
+form {
+  button {
+    display: inline-flex;
+    align-items: center;
+    svg {
+      vertical-align: middle;
+      fill: $color-white;
+      margin-right: 5px;
+    }
+  }
+}

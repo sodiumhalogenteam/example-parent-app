@@ -1,0 +1,137 @@
+// #TEXT
+$color-body-text: $color-gray-700;
+$color-body-bg: $color-white;
+$color-error: $color-utility-error;
+$color-success: $color-utility-success;
+$color-label-info-bg: $color-gray-000;
+
+// Highlight colors
+$color-text-highlight: $color-gray-800;
+$color-text-highlight-bg: $color-gray-500;
+
+// #LINKS
+$color-links: $color-action-blue-500 !default;
+$color-links-hover: $color-action-blue-300 !default;
+$color-links-active: $color-action-blue-700 !default;
+$color-links-disabled: $color-gray-600 !default;
+
+// #BUTTONS
+$color-btn-primary: $color-white !default;
+$color-btn-primary-bg: $color-action-blue-500 !default;
+$color-btn-primary-bg-hover: $color-action-blue-300 !default;
+$color-btn-primary-border: $color-action-blue-500 !default;
+
+$color-btn-secondary: $color-white !default;
+$color-btn-secondary-bg: $color-action-blue-300 !default;
+$color-btn-secondary-bg-hover: $color-action-blue-500 !default;
+$color-btn-secondary-border: $color-action-blue-300 !default;
+
+$color-btn-outline: $color-action-blue-500 !default;
+$color-btn-outline-bg: transparent !default;
+$color-btn-outline-bg-hover: $color-action-blue-300 !default;
+$color-btn-outline-text-hover: $color-white !default;
+$color-btn-outline-border: $color-action-blue-500 !default;
+
+$color-btn-filter-border: $color-gray-200 !default;
+$color-btn-filter-text: $color-gray-700 !default;
+
+$color-btn-dark: $color-white !default;
+$color-btn-dark-bg: $color-action-blue-700 !default;
+$color-btn-dark-bg-hover: $color-action-blue-500 !default;
+
+$color-btn-light: $color-action-blue-300 !default;
+$color-btn-light-bg: $color-white !default;
+$color-btn-light-text-hover: $color-white !default;
+$color-btn-light-bg-hover: $color-action-blue-300 !default;
+
+$color-btn-icon-delete: $color-utility-error !default;
+
+$color-tabset-text: $color-white !default;
+$color-tabset-bg: $color-action-blue-500 !default;
+$color-tabset-bg-active: $color-white !default;
+
+$color-toggle-bg: $color-gray-100 !default;
+$color-toggle-bg-active: $color-utility-success !default;
+$color-toggle-handle: $color-gray-700 !default;
+$color-toggle-handle-active: $color-white !default;
+$color-toggle-label: $color-gray-700 !default;
+$color-toggle-label-active: $color-white !default;
+
+// FORMS
+$color-form: $color-gray-900 !default;
+$color-form-bg: $color-white !default;
+$color-form-border: $color-action-blue-500 !default;
+$color-form-border-focus: $color-action-blue-500 !default;
+$color-form-border-error: $color-utility-error !default;
+$color-form-label: $color-gray-900 !default;
+$color-form-info: $color-gray-700;
+$color-form-placeholder: $color-gray-500;
+
+$color-form-disabled: $color-gray-500 !default;
+$color-form-bg-disabled: $color-gray-100 !default;
+$color-form-border-disabled: $color-gray-100 !default;
+
+// LED
+$color-label-led-bg: $color-gray-600;
+$color-label-led-bg-active: $color-utility-success;
+$color-label-led-text: $color-white;
+
+// STATUS LABEL
+$color-status-notapplicable: $color-gray-000;
+$color-text-notapplicable: $color-gray-800;
+$color-status-valid: $color-utility-success;
+$color-status-expiring: $color-utility-expiring;
+$color-status-expired: $color-utility-error;
+$color-status-invalid: $color-gray-600;
+$color-status-pending: $color-utility-warning;
+
+// YEAR LABEL
+$color-year-label: $color-gray-700;
+
+// DATE PICKER
+$color-date-picker-text: $color-action-blue-500;
+$color-date-picker-text-hover: $color-action-blue-300;
+$color-date-picker-text-disabled: $color-action-blue-200;
+$color-date-picker-box-shadow: $color-black-shadow;
+$color-date-picker-calendar-text: $color-gray-700;
+$color-date-picker-disabled-label: $color-gray-400;
+$color-date-picker-selected-date: $color-action-blue-500;
+$color-date-picker-chevron: $color-action-blue-500;
+$color-date-picker-focus-text: $color-gray-700;
+$color-date-picker-focus-placeholder: $color-gray-400;
+
+// TABLE CHECKMARK
+$color-table-checkmark-fill: $color-gray-600;
+$color-table-checkmark-fill-active: $color-utility-success;
+
+// BOX
+$color-box-bg: $color-gray-000 !default;
+$color-box-bg-dark: $color-action-blue-700 !default;
+$color-box-title: $color-action-blue-700 !default;
+
+// AGREEMENT BOX
+$color-agreement-box-title: $color-gray-700;
+$color-agreement-box-subtext: $color-gray-700;
+$color-agreement-box-border: $color-action-blue-500;
+$color-agreement-box-select: $color-action-blue-500;
+
+// REPORTS
+$color-report-border: $color-gray-100 !default;
+$color-report-stat-text: $color-action-blue-700 !default;
+$color-report-label: $color-gray-500 !default;
+$color-report-content: $color-gray-700 !default;
+$color-report-bar-bg: $color-gray-000 !default;
+$color-report-bar-label: $color-gray-700 !default;
+$color-report-bar-fill: $color-action-blue-200 !default;
+
+// UPLOAD BOX
+$color-upload-box-border: $color-action-blue-500 !default;
+$color-upload-box-background: $color-gray-100 !default;
+
+// MAP MARKER
+$color-marker-background: $color-white !default;
+$color-marker-region-color: $color-gray-700 !default;
+$color-marker-vendor-count-color: $color-white !default;
+$color-marker-active-background: $color-utility-success !default;
+$color-marker-inactive-background: $color-utility-error !default;
+$color-marker-empty-background: $color-gray-300 !default;
